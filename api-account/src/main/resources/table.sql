@@ -1,0 +1,7 @@
+CREATE TABLE "db_bankABC_Account".account (
+	id int NOT NULL,
+	accountnumber varchar NULL,
+	minimumbalance numeric NULL,
+	currentbalance numeric NULL,
+	interestrate numeric NULL
+);
